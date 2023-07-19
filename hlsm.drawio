@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T22:16:03.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="3AHjecgSIAmbqEYuqbw_" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T22:18:57.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="2RKcZ14mrtEU8cbEX7V5" version="21.6.3" type="github">
   <diagram name="Page-1" id="TQiY2bgFi70chmA_Tr3e">
     <mxGraphModel dx="2220" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,8 +215,20 @@
         <mxCell id="GypIecGDj1aesdgjWcYJ-39" value="RF_Rp_addr = ra&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RF_Rp_rd = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GypIecGDj1aesdgjWcYJ-40" value="RF_Rp_addr = rb&lt;br&gt;RF_Rp_rd = 1&lt;br&gt;RF_s1 = 0&lt;br&gt;RF_s0 = 0&lt;br&gt;RF_Rq_add = rc&lt;br&gt;RF_Rq_rd = 1&lt;br&gt;RF_W_addr = ra&lt;br&gt;RF_W_wr = 1&lt;br&gt;alu_s3 = 0&lt;br&gt;alu_s2 = 0&lt;br&gt;alu_s1 = 1&lt;br&gt;alu_s0 = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="GypIecGDj1aesdgjWcYJ-40" value="RF_Rp_addr = rb&lt;br&gt;RF_Rp_rd = 1&lt;br&gt;RF_s1 = 0&lt;br&gt;RF_s0 = 0&lt;br&gt;RF_Rq_add = rc&lt;br&gt;RF_Rq_rd = 1&lt;br&gt;RF_W_addr = ra&lt;br&gt;RF_W_wr = 1&lt;br&gt;alu_s3 = 0&lt;br&gt;alu_s2 = 1&lt;br&gt;alu_s1 = 1&lt;br&gt;alu_s0 = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="740" y="410" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GypIecGDj1aesdgjWcYJ-41" value="RF_Rp_addr = rb&lt;br&gt;RF_Rp_rd = 1&lt;br&gt;RF_s1 = 0&lt;br&gt;RF_s0 = 0&lt;br&gt;RF_Rq_add = rc&lt;br&gt;RF_Rq_rd = 1&lt;br&gt;RF_W_addr = ra&lt;br&gt;RF_W_wr = 1&lt;br&gt;alu_s3 = 0&lt;br&gt;alu_s2 = 1&lt;br&gt;alu_s1 = 1&lt;br&gt;alu_s0 = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="360" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="GypIecGDj1aesdgjWcYJ-42" value="RF_Rp_addr = rb&lt;br&gt;RF_Rp_rd = 1&lt;br&gt;RF_s1 = 0&lt;br&gt;RF_s0 = 0&lt;br&gt;RF_W_addr = ra&lt;br&gt;RF_W_wr = 1&lt;br&gt;alu_s3 = 1&lt;br&gt;alu_s2 = 0&lt;br&gt;alu_s1 = 0&lt;br&gt;alu_s0 = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="360" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GypIecGDj1aesdgjWcYJ-43" value="l_rd = 1&lt;br&gt;PC_inc = 1&lt;br&gt;IR_ld = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="100" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GypIecGDj1aesdgjWcYJ-44" value="PC_clr = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="35" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
